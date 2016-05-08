@@ -1,0 +1,14 @@
+{
+	"name": "@sega-yarkin/config",
+	"description": "Configuration control for Node.JS apps",
+	"version": "0.1.0",
+	"license": "MIT",
+	"author": "Sergey Yarkin <sega@yark.in> (http://yark.in)",
+	"main": "index.js",
+	"scripts": {
+		"test": "vows --spec test.js"
+	},
+	"engines": {
+		"node": ">=6.0.0"
+	}
+}
