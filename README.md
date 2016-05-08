@@ -18,9 +18,12 @@ const SomeModuleInit = ( cfg ) => {
 	cfg.db.$reg( 'pwd' , "root", "Database username password" );
 };
 
-// Create config instanceof
+// Create config instance
 let cfg = Config();
 SomeModuleInit( cfg.somemodule );
+
+// Get some parameter
+let db_hsot = cfg.somemodule.db.host.$get();
 
 
 ```
