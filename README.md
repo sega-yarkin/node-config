@@ -23,7 +23,7 @@ let cfg = Config();
 SomeModuleInit( cfg.somemodule );
 
 // Get some parameter
-let db_hsot = cfg.somemodule.db.host.$get();
+let db_host = cfg.somemodule.db.host.$get();
 
 
 ```
