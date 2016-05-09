@@ -5,7 +5,7 @@ Configuration control for Node.JS apps
 
 ```js
 // Connect the module
-const Config = require( 'config' );
+const Config = require( '@sega-yarkin/config' );
 
 // Register some module parameter
 const SomeModuleInit = ( cfg ) => {
